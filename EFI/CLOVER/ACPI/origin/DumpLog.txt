@@ -1,0 +1,149 @@
+5:336  1:354  Found BIOS RSDP at F0000
+5:336  0:000  Printing ACPI tables from RSDP F0000 ...
+5:336  0:000   F0000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+5:336  0:000    (Xsdt: D9D19098, Rsdt: D9D19028)
+5:336  0:000    D9D19098: 'XSDT', 'Notebook', Rev: 1, Len: 172
+5:336  0:000    D9D19028: 'RSDT', 'Notebook', Rev: 1, Len: 104
+5:336  0:000    Tables in Xsdt: 17
+5:336  0:000    0. D9D2FE40: 'FACP', 'Notebook', Rev: 5, Len: 268
+5:336  0:000        (Dsdt: D9D19260, Facs: DA99EF80, XDsdt: D9D19260, XFacs: 0)
+5:336  0:000        D9D19260: 'DSDT', 'Notebook', Rev: 2, Len: 93146
+5:339  0:003        DA99EF80: 'FACS', Ver: 2, Len: 64
+5:339  0:000    1. D9D2FF50: 'APIC', 'Notebook', Rev: 3, Len: 114
+5:339  0:000    2. D9D2FFC8: 'FPDT', 'Notebook', Rev: 1, Len: 68
+5:339  0:000    3. D9D30010: 'ECDT', 'Notebook', Rev: 1, Len: 193
+5:339  0:000    4. D9D300D8: 'LPIT', '', Rev: 1, Len: 148
+5:339  0:000    5. D9D30170: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+5:339  0:000    6. D9D306B0: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+5:339  0:000    7. D9D31188: 'SSDT', 'Cpu0Tst', Rev: 1, Len: 734
+5:339  0:000    8. D9D31468: 'SSDT', 'ApTst', Rev: 1, Len: 840
+5:339  0:000    9. D9D317B0: 'MCFG', 'Notebook', Rev: 1, Len: 60
+5:339  0:000    10. D9D317F0: 'SSDT', 'DptfTabl', Rev: 1, Len: 12397
+5:339  0:000    11. D9D34860: 'HPET', 'Notebook', Rev: 1, Len: 56
+5:339  0:000    12. D9D34898: 'SSDT', 'SataTabl', Rev: 1, Len: 727
+5:339  0:000    13. D9D34B70: 'SSDT', 'SaSsdt', Rev: 1, Len: 16174
+5:339  0:000    14. D9D38AA0: 'ASF!', ' HCG', Rev: 32, Len: 165
+5:339  0:000    15. D9763018: 'FPBA', 'Notebook', Rev: 0, Len: 131108
+5:339  0:000    16. D9D58B70: 'BGRT', 'Notebook', Rev: 0, Len: 56
+5:339  0:000    Tables in Rsdt: 17
+5:339  0:000    0. D9D19150: 'FACP', 'Notebook', Rev: 2, Len: 268
+5:339  0:000        (Dsdt: D9D19260, Facs: DA99EF40)
+5:339  0:000        D9D19260: 'DSDT', 'Notebook', Rev: 2, Len: 93146
+5:342  0:003        DA99EF40: 'FACS', Ver: 0, Len: 64
+5:342  0:000    1. D9D2FF50: 'APIC', 'Notebook', Rev: 3, Len: 114
+5:342  0:000    2. D9D2FFC8: 'FPDT', 'Notebook', Rev: 1, Len: 68
+5:342  0:000    3. D9D30010: 'ECDT', 'Notebook', Rev: 1, Len: 193
+5:342  0:000    4. D9D300D8: 'LPIT', '', Rev: 1, Len: 148
+5:342  0:000    5. D9D30170: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+5:342  0:000    6. D9D306B0: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+5:342  0:000    7. D9D31188: 'SSDT', 'Cpu0Tst', Rev: 1, Len: 734
+5:342  0:000    8. D9D31468: 'SSDT', 'ApTst', Rev: 1, Len: 840
+5:342  0:000    9. D9D317B0: 'MCFG', 'Notebook', Rev: 1, Len: 60
+5:342  0:000    10. D9D317F0: 'SSDT', 'DptfTabl', Rev: 1, Len: 12397
+5:342  0:000    11. D9D34860: 'HPET', 'Notebook', Rev: 1, Len: 56
+5:342  0:000    12. D9D34898: 'SSDT', 'SataTabl', Rev: 1, Len: 727
+5:342  0:000    13. D9D34B70: 'SSDT', 'SaSsdt', Rev: 1, Len: 16174
+5:342  0:000    14. D9D38AA0: 'ASF!', ' HCG', Rev: 32, Len: 165
+5:342  0:000    15. D9763018: 'FPBA', 'Notebook', Rev: 0, Len: 131108
+5:342  0:000    16. D9D58B70: 'BGRT', 'Notebook', Rev: 0, Len: 56
+5:342  0:000  Found UEFI Acpi 2.0 RSDP at D9D19000
+5:342  0:000  Saving ACPI tables from RSDP D9D19000 to EFI\CLOVER\ACPI\origin ...
+5:342  0:000   D9D19000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+5:351  0:008    (Xsdt: D9D19098, Rsdt: D9D19028)
+5:351  0:000    D9D19098: 'XSDT', 'Notebook', Rev: 1, Len: 172 -> XSDT.aml
+5:358  0:006    D9D19028: 'RSDT', 'Notebook', Rev: 1, Len: 104 -> RSDT.aml
+5:364  0:006    Tables in Xsdt: 17
+5:364  0:000    0. D9D2FE40: 'FACP', 'Notebook', Rev: 5, Len: 268 -> FACP.aml
+5:373  0:008        (Dsdt: D9D19260, Facs: DA99EF80, XDsdt: D9D19260, XFacs: 0)
+5:373  0:000        D9D19260: 'DSDT', 'Notebook', Rev: 2, Len: 93146 -> DSDT.aml
+5:394  0:020        DA99EF80: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+5:400  0:006    1. D9D2FF50: 'APIC', 'Notebook', Rev: 3, Len: 114 -> APIC.aml
+5:408  0:007    2. D9D2FFC8: 'FPDT', 'Notebook', Rev: 1, Len: 68 -> FPDT.aml
+5:414  0:006    3. D9D30010: 'ECDT', 'Notebook', Rev: 1, Len: 193 -> ECDT.aml
+5:421  0:006    4. D9D300D8: 'LPIT', '', Rev: 1, Len: 148 -> LPIT.aml
+5:427  0:006    5. D9D30170: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337 -> SSDT-0-Cpu0Ist.aml
+5:434  0:006    6. D9D306B0: 'SSDT', 'CpuPm', Rev: 1, Len: 2776 -> SSDT-1-CpuPm.aml (Found hidden SSDT 4 pcs)
+5:440  0:006        * D799EA98: '$', '', Rev: 0, Len: 23117  24 05 00 10 4D 5A 00 00 00 00 00 00 00 00 00 00 
+5:440  0:000        * D992C618: 'SSDT', 'ApIst', Rev: 1, Len: 1450  53 53 44 54 AA 05 00 00 01 D3 50 6D 52 65 66 00 Internal length = 1450 -> SSDT-x1_0-ApIst.aml
+5:444  0:004        * D992CC18: 'SSDT', 'Cpu0Cst', Rev: 1, Len: 979  53 53 44 54 D3 03 00 00 01 B3 50 6D 52 65 66 00 Internal length = 979 -> SSDT-x1_1-Cpu0Cst.aml
+5:449  0:004        * D992BD98: 'SSDT', 'ApCst', Rev: 1, Len: 281  53 53 44 54 19 01 00 00 01 EF 50 6D 52 65 66 00 Internal length = 281 -> SSDT-x1_2-ApCst.aml
+5:454  0:005  
+5:454  0:000    7. D9D31188: 'SSDT', 'Cpu0Tst', Rev: 1, Len: 734 -> SSDT-2-Cpu0Tst.aml
+5:462  0:007    8. D9D31468: 'SSDT', 'ApTst', Rev: 1, Len: 840 -> SSDT-3-ApTst.aml
+5:469  0:007    9. D9D317B0: 'MCFG', 'Notebook', Rev: 1, Len: 60 -> MCFG.aml
+5:476  0:006    10. D9D317F0: 'SSDT', 'DptfTabl', Rev: 1, Len: 12397 -> SSDT-4-DptfTabl.aml
+5:482  0:006    11. D9D34860: 'HPET', 'Notebook', Rev: 1, Len: 56 -> HPET.aml
+5:489  0:007    12. D9D34898: 'SSDT', 'SataTabl', Rev: 1, Len: 727 -> SSDT-5-SataTabl.aml
+5:497  0:007    13. D9D34B70: 'SSDT', 'SaSsdt', Rev: 1, Len: 16174 -> SSDT-6-SaSsdt.aml
+5:503  0:006    14. D9D38AA0: 'ASF!', ' HCG', Rev: 32, Len: 165 -> ASF!.aml
+5:511  0:007    15. D9763018: 'FPBA', 'Notebook', Rev: 0, Len: 131108 -> FPBA.aml
+5:526  0:015    16. D9D58B70: 'BGRT', 'Notebook', Rev: 0, Len: 56 -> BGRT.aml
+5:531  0:005    Tables in Rsdt: 17
+5:531  0:000    0. D9D19150: 'FACP', 'Notebook', Rev: 2, Len: 268 -> RSDT-FACP.aml
+5:538  0:007        (Dsdt: D9D19260, Facs: DA99EF40)
+5:538  0:000        D9D19260: 'DSDT', 'Notebook', Rev: 2, Len: 93146
+5:541  0:003        DA99EF40: 'FACS', Ver: 0, Len: 64 -> RSDT-FACS.aml
+5:548  0:006    1. D9D2FF50: 'APIC', 'Notebook', Rev: 3, Len: 114
+5:548  0:000    2. D9D2FFC8: 'FPDT', 'Notebook', Rev: 1, Len: 68
+5:548  0:000    3. D9D30010: 'ECDT', 'Notebook', Rev: 1, Len: 193
+5:548  0:000    4. D9D300D8: 'LPIT', '', Rev: 1, Len: 148
+5:548  0:000    5. D9D30170: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+5:548  0:000    6. D9D306B0: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+5:548  0:000    7. D9D31188: 'SSDT', 'Cpu0Tst', Rev: 1, Len: 734
+5:548  0:000    8. D9D31468: 'SSDT', 'ApTst', Rev: 1, Len: 840
+5:548  0:000    9. D9D317B0: 'MCFG', 'Notebook', Rev: 1, Len: 60
+5:548  0:000    10. D9D317F0: 'SSDT', 'DptfTabl', Rev: 1, Len: 12397
+5:548  0:000    11. D9D34860: 'HPET', 'Notebook', Rev: 1, Len: 56
+5:548  0:000    12. D9D34898: 'SSDT', 'SataTabl', Rev: 1, Len: 727
+5:548  0:000    13. D9D34B70: 'SSDT', 'SaSsdt', Rev: 1, Len: 16174
+5:548  0:000    14. D9D38AA0: 'ASF!', ' HCG', Rev: 32, Len: 165
+5:548  0:000    15. D9763018: 'FPBA', 'Notebook', Rev: 0, Len: 131108
+5:548  0:000    16. D9D58B70: 'BGRT', 'Notebook', Rev: 0, Len: 56
+5:548  0:000  Found UEFI Acpi 1.0 RSDP at D9D19000
+5:548  0:000  Printing ACPI tables from RSDP D9D19000 ...
+5:548  0:000   D9D19000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+5:548  0:000    (Xsdt: D9D19098, Rsdt: D9D19028)
+5:548  0:000    D9D19098: 'XSDT', 'Notebook', Rev: 1, Len: 172
+5:548  0:000    D9D19028: 'RSDT', 'Notebook', Rev: 1, Len: 104
+5:548  0:000    Tables in Xsdt: 17
+5:548  0:000    0. D9D2FE40: 'FACP', 'Notebook', Rev: 5, Len: 268
+5:548  0:000        (Dsdt: D9D19260, Facs: DA99EF80, XDsdt: D9D19260, XFacs: 0)
+5:548  0:000        D9D19260: 'DSDT', 'Notebook', Rev: 2, Len: 93146
+5:551  0:003        DA99EF80: 'FACS', Ver: 2, Len: 64
+5:551  0:000    1. D9D2FF50: 'APIC', 'Notebook', Rev: 3, Len: 114
+5:551  0:000    2. D9D2FFC8: 'FPDT', 'Notebook', Rev: 1, Len: 68
+5:551  0:000    3. D9D30010: 'ECDT', 'Notebook', Rev: 1, Len: 193
+5:551  0:000    4. D9D300D8: 'LPIT', '', Rev: 1, Len: 148
+5:551  0:000    5. D9D30170: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+5:551  0:000    6. D9D306B0: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+5:551  0:000    7. D9D31188: 'SSDT', 'Cpu0Tst', Rev: 1, Len: 734
+5:551  0:000    8. D9D31468: 'SSDT', 'ApTst', Rev: 1, Len: 840
+5:551  0:000    9. D9D317B0: 'MCFG', 'Notebook', Rev: 1, Len: 60
+5:551  0:000    10. D9D317F0: 'SSDT', 'DptfTabl', Rev: 1, Len: 12397
+5:551  0:000    11. D9D34860: 'HPET', 'Notebook', Rev: 1, Len: 56
+5:551  0:000    12. D9D34898: 'SSDT', 'SataTabl', Rev: 1, Len: 727
+5:551  0:000    13. D9D34B70: 'SSDT', 'SaSsdt', Rev: 1, Len: 16174
+5:551  0:000    14. D9D38AA0: 'ASF!', ' HCG', Rev: 32, Len: 165
+5:551  0:000    15. D9763018: 'FPBA', 'Notebook', Rev: 0, Len: 131108
+5:551  0:000    16. D9D58B70: 'BGRT', 'Notebook', Rev: 0, Len: 56
+5:551  0:000    Tables in Rsdt: 17
+5:551  0:000    0. D9D19150: 'FACP', 'Notebook', Rev: 2, Len: 268
+5:551  0:000        (Dsdt: D9D19260, Facs: DA99EF40)
+5:551  0:000        D9D19260: 'DSDT', 'Notebook', Rev: 2, Len: 93146
+5:554  0:003        DA99EF40: 'FACS', Ver: 0, Len: 64
+5:554  0:000    1. D9D2FF50: 'APIC', 'Notebook', Rev: 3, Len: 114
+5:554  0:000    2. D9D2FFC8: 'FPDT', 'Notebook', Rev: 1, Len: 68
+5:554  0:000    3. D9D30010: 'ECDT', 'Notebook', Rev: 1, Len: 193
+5:554  0:000    4. D9D300D8: 'LPIT', '', Rev: 1, Len: 148
+5:554  0:000    5. D9D30170: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+5:554  0:000    6. D9D306B0: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+5:554  0:000    7. D9D31188: 'SSDT', 'Cpu0Tst', Rev: 1, Len: 734
+5:554  0:000    8. D9D31468: 'SSDT', 'ApTst', Rev: 1, Len: 840
+5:554  0:000    9. D9D317B0: 'MCFG', 'Notebook', Rev: 1, Len: 60
+5:554  0:000    10. D9D317F0: 'SSDT', 'DptfTabl', Rev: 1, Len: 12397
+5:554  0:000    11. D9D34860: 'HPET', 'Notebook', Rev: 1, Len: 56
+5:554  0:000    12. D9D34898: 'SSDT', 'SataTabl', Rev: 1, Len: 727
+5:554  0:000    13. D9D34B70: 'SSDT', 'SaSsdt', Rev: 1, Len: 16174
+5:554  0:000    14. D9D38AA0: 'ASF!', ' HCG', Rev: 32, Len: 165
+5:554  0:000    15. D9763018: 'FPBA', 'Notebook', Rev: 0, Len: 131108
+5:554  0:000    16. D9D58B70: 'BGRT', 'Notebook', Rev: 0, Len: 56
